@@ -957,7 +957,10 @@ body{
 .footer-initial{
   width: 340px;
 }
+.footer-logo-link{
+    transition: opacity 0.3s ease;
 
+}
 .footer-initial-info{
   font-weight: 500;
   font-size: 18px;
@@ -989,8 +992,14 @@ body{
   font-size: 18px;
   line-height: 40px;
   color: #EEEEEE;
+  transition: opacity 0.3s ease;
 }
-
+.footer-left-nav-link:hover,
+.footer-right-nav-link:hover,
+.footer-social-media-item:hover,
+.footer-logo-link:hover {
+  opacity: 0.7;
+}
 
 .footer-social-media-list{
   list-style: none;
@@ -1005,6 +1014,8 @@ body{
 }
 .footer-social-media-item{
   margin-right: 30px;
+  transition: opacity 0.3s ease;
+
 }
 .footer-social-media-item:last-child{
   margin-right: 0;
