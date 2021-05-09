@@ -1,0 +1,274 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+body{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto','Arial',sans-serif;
+  margin: 0;
+  color: #37474F;
+}
+
+.site-header-top{
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.logo-link{
+  transition: opacity 0.3s ease;
+}
+.logo-link:hover{
+  opacity: 0.6;
+}
+
+.site-haeder-nav{
+  margin-left: auto;
+}
+
+.header-nav-list{
+  display: flex;
+  list-style: none;
+}
+
+.header-nav-item{
+  margin-right: 70px;
+
+}
+.header-nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #373737;
+  transition: color 0.3s ease;
+
+}
+.header-nav-link:hover{
+  color: #37373794;
+}
+
+.header-nav-link:active{
+  color: #373737be;
+  opacity: 0.6;
+}
+
+.site-header-apply{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  border: 2px solid #717CFF;
+  border-radius: 11px;
+  padding: 11px 35px;
+  color: #505050;
+  transition: background-color 0.4s ease, color 0.4 ease;
+}
+
+.site-header-apply:hover{
+  background-color: #717CFF;
+  color:#fff;
+}
+
+.build{
+  color: #717CFF;
+}
+
+
+/* hero */
+
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+}
+.hero-description{
+  width: 630px;
+}
+
+.hero-heading{
+  margin-top: 140px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 66px;
+  color: #2F2F2F;
+  text-transform: capitalize;
+}
+
+.hero-info{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7D7D7D;
+}
+
+.apply-online-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
+  background-color: #717CFF;
+  border-radius: 11px;
+  padding: 12px 0px 12px 34px;
+  display: flex;
+  align-items: center;
+  width: 260px;
+  flex-grow: 1;
+  border: 2px solid transparent;
+  transition:background-color 0.3s ease, color 0.3s ease;
+  margin-top: 42px;
+}
+.apply-online-link:hover{
+  background-color: transparent;
+  border:2px solid #717CFF;
+  color:#717CFF;
+}
+.apply-online-link::after{
+  content: '';
+  background-image: url('../img/arrow.svg');
+  width: 20px;
+  height: 18px;
+  margin-left: 20px;
+
+}
+
+.hero-social-list{
+  margin-top: 105px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.hero-social-item{
+  margin-right: 30px;
+}
+.hero-background{
+  background-image: url('../img/student.png');
+  margin-top: 117px;
+  width: 1049px;
+  height: 728px;
+}
+
+
+/* featured university section */
+
+.featured-university-container{
+  padding-bottom: 57px;
+}
+
+.featured-university-heading{
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #373737;
+  opacity: 0.73;
+  margin-top: 55px;
+}
+
+.featured-university-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+  margin-bottom: 105px;
+}
+.featured-university-item{
+  transition: opacity 0.3s ease;
+}
+.featured-university-item:hover{
+  opacity: 0.6;
+}
+
+.slider-list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+
+}
+
+.slider-item{
+  width: 10px;
+  height: 10px;
+  background: rgba(124, 124, 124, 0.318837);
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.slider-item:first-child{
+  margin-left: 0px;
+   width: 14px;
+  height: 14px;
+  background: #717CFF;
+}
+
+
+
+/* ------------services-section ------------------ */
+
+.services-container{
+
+}
+
+.services-description{
+  width: 950px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-heading{
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #373737;
+
+}
+.services-info{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+   color: #7D7D7D;
+
+}
+
+.services-list{
+  display: flex;
+  list-style: none;
+}
+.services-item-heading{
+
+}
+.services-item-heading::after{
+  display: block;
+  content: "";
+  background-image: url('../img/icon/icon-navigate.svg');
+  width: 76;
+  height: 76;
+  /* margin-top: 50px; */
+  /* display: block; */
+}
